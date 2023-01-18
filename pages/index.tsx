@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -17,11 +16,11 @@ export default function Home() {
           <Link className='nav' href='/basic'>
             Basic
           </Link>
-          <Link className='nav' href='/about'>
-            About Us
+          <Link className='nav' href='/arrayForm'>
+            Array Form
           </Link>
-          <Link className='nav' href='/blog/hello-world'>
-            Blog Post
+          <Link className='nav' href='/isValid'>
+            isValid
           </Link>
         </div>
       </main>
